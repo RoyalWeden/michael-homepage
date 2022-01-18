@@ -67,7 +67,7 @@ const Page = () => {
                     <Paragraph>
                         Michael is a high school student and has a passion for building
                         artificial intelligent solutions, solving problems with machine learning,
-                        and using quantum mechanical properties develop quantum computing solutions.
+                        and using quantum mechanical properties to develop quantum computing solutions.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/projects">
