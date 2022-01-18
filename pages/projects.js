@@ -2,7 +2,7 @@ import {
     Container,
     Heading,
     SimpleGrid,
-    Divider
+    // Divider
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
@@ -45,7 +45,7 @@ const Projects = () => {
                             title="Snake Machine Learning"
                             thumbnail={thumbSnakeML}
                         >
-                            A reinforcement learning program where a snake's neural network learns to eat apples.
+                            A reinforcement learning program where a snake&apos;s neural network learns to eat apples.
                         </ProjectGridItem>
                     </Section>
                 </SimpleGrid>
