@@ -83,10 +83,6 @@ const Page = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>2004</BioYear>
-                        Born in Minnesota, United States.
-                    </BioSection>
-                    <BioSection>
                         <BioYear>2019</BioYear>
                         Earned the MTA: Security Fundamentals,
                         MTA: Introduciton to Programming Using Python, and Microsoft Certified:
@@ -101,6 +97,13 @@ const Page = () => {
                         Earned the IBM Certified Associate Developer - Quantum Computation using
                         Qiskit v0.2X certification.
                     </BioSection>
+                    <Box align="center" my={4}>
+                        <NextLink href="/certifications">
+                            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                                Professional Certifications
+                            </Button>
+                        </NextLink>
+                    </Box>
                 </Section>
 
                 <Section delay={0.3}>
@@ -165,6 +168,13 @@ const Page = () => {
                             An academic learning platform for mathematics
                         </GridItem>
                     </SimpleGrid>
+                    <Box align="center" my={4}>
+                        <NextLink href="/posts">
+                            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                                Popular Posts
+                            </Button>
+                        </NextLink>
+                    </Box>
                 </Section>
             </Container>
         </Layout>
