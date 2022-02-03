@@ -24,6 +24,7 @@ import {
     IoLogoMedium
 } from 'react-icons/io5'
 import thumbArithmos from '../public/images/projects/arithmos_01.jpg'
+import thumbQuantumEd from '../public/images/projects/quantumed_01.jpg'
 
 const Page = () => {
     return (
@@ -166,6 +167,13 @@ const Page = () => {
                             thumbnail={thumbArithmos}
                         >
                             An academic learning platform for mathematics
+                        </GridItem>
+                        <GridItem
+                            href="https://quantumed.vercel.app/"
+                            title="QuantumEd"
+                            thumbnail={thumbQuantumEd}
+                        >
+                            An platform to increase quantum education for all
                         </GridItem>
                     </SimpleGrid>
                     <Box align="center" my={4}>

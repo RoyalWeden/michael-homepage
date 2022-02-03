@@ -11,6 +11,7 @@ import Layout from '../components/layouts/article'
 import thumbArithmos from '../public/images/projects/arithmos_01.jpg'
 import thumbQuantumPortfolio from '../public/images/projects/quantumportfolio_01.jpg'
 import thumbSnakeML from '../public/images/projects/snakemachinelearning_01.png'
+import thumbQuantumEd from '../public/images/projects/quantumed_01.jpg'
 
 const Projects = () => {
     return (
@@ -21,6 +22,15 @@ const Projects = () => {
                 </Heading>
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                    <Section>
+                        <ProjectGridItem
+                            id="quantumed"
+                            title="QuantumEd"
+                            thumbnail={thumbQuantumEd}
+                        >
+                            A platform to help increase the education of quantum computing education in secondary and post secondary students.
+                        </ProjectGridItem>
+                    </Section>
                     <Section>
                         <ProjectGridItem
                             id="arithmos"
