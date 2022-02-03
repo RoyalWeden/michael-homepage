@@ -125,7 +125,7 @@ const Page = () => {
                             Quantum Computing
                         </Link>
                         , and Developing{' '}
-                        <Link href="https://github.com/RoyalWeden/quantum-portfolio" target="_blank">
+                        <Link href="https://quantumed.vercel.app/" target="_blank">
                             Web Applications
                         </Link>
                         .
